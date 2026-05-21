@@ -1,0 +1,17 @@
+# Core
+numpy
+scipy
+matplotlib
+opencv-python
+
+# Deep Learning
+torch
+torchvision
+kornia
+kornia-rs
+
+# LightGlue (install from source)
+# pip install git+https://github.com/cvg/LightGlue.git
+
+# Notebook
+jupyter
