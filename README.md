@@ -2,6 +2,11 @@
 Computer Vision system that locates books on cluttered shelves by comparing classical methods (SIFT, ORB, RANSAC) against Deep Learning (DINOv2, SuperPoint + LightGlue), with custom NMS and AR wireframe overlay via homography
 
 
+The Jupyter notebook contains all pre-rendered visual outputs and heatmaps. You can inspect the complete pipeline or run the code interactively directly in Google Colab via the following link:
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1uHEQYoa1B5vWRf07dGzqFDQoRB2XJQsQ#scrollTo=XZw813JiwDbR)
+
+
 # Book Detection on Cluttered Shelves: Classical CV vs. Deep Learning
 
 Computer Vision system that locates specific books on a shelf from a reference image of the spine, comparing **classical methods** (SIFT, ORB + RANSAC) against **Deep Learning** (SuperPoint + LightGlue, DINOv2 with a custom NMS). Includes an **AR-style wireframe overlay** computed via geometric homography.
